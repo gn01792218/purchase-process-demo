@@ -1,35 +1,24 @@
 <template>
-  <h1>{{ msg }}</h1>
-
-  <p>
-    Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-  </p>
-
-  <p>See <code>README.md</code> for more information.</p>
-
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
-  </p>
-
-  <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <div>
+    <ul>
+      <li>AAAA</li>
+    </ul>
+    <img src="" alt="">
+  {{ $t('test') }}
+  </div>
+  <button @click="tw">中文</button>
+  <button @click="en">英文</button>
 </template>
 <script setup lang="ts">
 import { ref } from "vue";
-
-defineProps<{ msg: string }>();
-
-const count = ref(0);
+import { useI18n } from 'vue-i18n'
+const  locale  = useI18n()
+function tw(){
+  locale.locale.value ='tw'
+}
+function en(){
+  locale.locale.value ='en'
+}
 </script>
 
 <style scoped></style>

@@ -1,3 +1,15 @@
 {
-    "lang":"EN"
+    "lang":"EN",
+    "nav":{
+        "help":"HELP",
+        "signIn":"SIGN IN"
+    },
+    "puchaseStatus":{
+        "code1":{
+            "description":"My Data"
+        },
+        "code2":{
+            "description":"Payment"
+        }
+    }
 }

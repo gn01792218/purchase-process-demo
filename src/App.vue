@@ -1,9 +1,10 @@
 <template>
   <NavBar />
-  <Home />
+  <PuchaseStatus />
+  <router-view />
 </template>
 <script setup lang="ts">
-import Home from '@/views/Home.vue'
-import NavBar from '@/component/navBar.vue'
+import NavBar from '@/component/nav/navBar.vue'
+import PuchaseStatus from '@/component/PuchaseStatus/PuchaseStatus.vue'
 </script>
 

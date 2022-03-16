@@ -2,10 +2,19 @@ import { createRouter, createWebHistory, RouteRecordRaw ,createWebHashHistory} f
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/Home',
-    name: 'Home',
-    component:()=>import('../views/Home.vue')
-    // component: BaccaratGame
+    path: '/',
+    name: 'MyData',
+    component:()=>import('../views/MyData.vue')
+  },
+  {
+    path: '/Payment',
+    name: 'Payment',
+    component:()=>import('../views/Payment.vue')
+  },
+  {
+    path: '/OrderCreated',
+    name: 'OrderCreated',
+    component:()=>import('../views/OrderCreated.vue')
   },
 ]
 

@@ -1,0 +1,15 @@
+{
+    "lang":"CN",
+    "nav":{
+        "help":"幫助",
+        "signIn":"登入"
+    },
+    "puchaseStatus":{
+        "code1":{
+            "description":"我的資料"
+        },
+        "code2":{
+            "description":"付款"
+        }
+    }
+}

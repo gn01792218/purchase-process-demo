@@ -1,6 +1,10 @@
 //color
 
 //background-color
+//white
+.br-white{
+    background-color: $clr-white;
+}
 //primary-color
 .bg-primary-100{
     background-color: $clr-primary-100;
@@ -33,8 +37,42 @@
 .bg-accents-green{
     background-color: $clr-accents-green;
 }
+//normal
+.bg-normal-100{
+    background-color: $clr-normal-100;
+}
+.bg-normal-200{
+    background-color: $clr-normal-200;
+}
+.bg-normal-300{
+    background-color: $clr-normal-300;
+}
+.bg-normal-400{
+    background-color: $clr-normal-400;
+}
+.bg-normal-500{
+    background-color: $clr-normal-500;
+}
+.bg-normal-600{
+    background-color: $clr-normal-600;
+}
+.bg-normal-700{
+    background-color: $clr-normal-700;
+}
+.bg-normal-800{
+    background-color: $clr-normal-800;
+}
+.bg-normal-900{
+    background-color: $clr-normal-900;
+}
+
 
 //text-color
+//white
+.text-white{
+    color:$clr-white;
+}
+//primary
 .text-primary-100{
     color:$clr-primary-100;
 }
@@ -62,6 +100,35 @@
 .text-primary-900{
     color:$clr-primary-900;
 }
+//accents
 .text-accents-green{
     color:$clr-accents-green;
+}
+//normal
+.text-normal-100{
+    color:$clr-normal-100;
+}
+.text-normal-200{
+    color:$clr-normal-200;
+}
+.text-normal-300{
+    color:$clr-normal-300;
+}
+.text-normal-400{
+    color:$clr-normal-400;
+}
+.text-normal-500{
+    color:$clr-normal-500;
+}
+.text-normal-600{
+    color:$clr-normal-600;
+}
+.text-normal-700{
+    color:$clr-normal-700;
+}
+.text-normal-800{
+    color:$clr-normal-800;
+}
+.text-normal-900{
+    color:$clr-normal-900;
 }
